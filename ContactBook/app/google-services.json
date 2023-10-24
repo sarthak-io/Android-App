@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "131420590525",
+    "project_id": "contact-book-e5ff2",
+    "storage_bucket": "contact-book-e5ff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131420590525:android:3242001dd36e2403a082d4",
+        "android_client_info": {
+          "package_name": "com.example.contactbook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrhVV86lBhEPl6l8JSkyKGX__QYXNUJ_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

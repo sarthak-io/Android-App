@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "847954094963",
+    "project_id": "evault-11165",
+    "storage_bucket": "evault-11165.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847954094963:android:e9ab8c5113d37ef9e17306",
+        "android_client_info": {
+          "package_name": "com.example.evault"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBggwjpwsOOayS5_v52OWpBuGdBNTkN8-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

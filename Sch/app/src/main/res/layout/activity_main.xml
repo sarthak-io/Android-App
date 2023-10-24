@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cardViewphysics"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:layout_marginStart="4dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginEnd="4dp"
+      android:layout_marginRight="4dp"
+      android:elevation="4dp"
+      app:cardBackgroundColor="#38D2E6"
+      app:cardCornerRadius="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.218">
+
+
+    <TextView
+        android:id="@+id/SubjectTextAttendancephysics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|left"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="@string/physics"
+        android:textColor="#343333"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AttendanceTextphysics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="300"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cardViewcehmsitry"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:layout_marginStart="4dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginEnd="4dp"
+      android:layout_marginRight="4dp"
+      android:elevation="4dp"
+      app:cardBackgroundColor="#38D2E6"
+      app:cardCornerRadius="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.367">
+
+
+    <TextView
+        android:id="@+id/SubjectTextAttendancechemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|left"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="@string/chemistry"
+        android:textColor="#343333"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AttendanceTextchemistry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="300"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.cardview.widget.CardView
+      android:id="@+id/cardViewmaths"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:layout_marginStart="4dp"
+      android:layout_marginLeft="4dp"
+      android:layout_marginEnd="4dp"
+      android:layout_marginRight="4dp"
+      android:elevation="4dp"
+      app:cardBackgroundColor="#38D2E6"
+      app:cardCornerRadius="20dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.536">
+
+
+    <TextView
+        android:id="@+id/SubjectTextAttendancemaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|right|left"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:text="@string/maths"
+        android:textColor="#343333"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/AttendanceTextmaths"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="300"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+  </androidx.cardview.widget.CardView>
+
+  <Button
+      android:id="@+id/addstudent_main_activity"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Add student"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.218"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.665" />
+
+  <Button
+      android:id="@+id/logoutButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Logout"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.803"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.665" />
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:background="@color/white"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.004">
+
+    <ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:src="@drawable/frame__1_" />
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="6dp"
+        android:src="@drawable/profile_image"
+        app:itemIconSize="28dp"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <ImageView
+        android:id="@+id/bell_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="4dp"
+        android:src="@drawable/frame__2_"
+        app:itemIconSize="28dp"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+
+  </androidx.appcompat.widget.Toolbar>
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottom_navigation"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="@drawable/bg_bottom_navigation"
+      app:itemIconSize="28dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.958"
+      app:menu="@menu/bottom_navigation_menu">
+
+  </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
